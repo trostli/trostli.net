@@ -531,7 +531,7 @@ ul#menu-main > li > a:hover {
 /* ----------------------------------------------------------------------------------------------------------
 05 Single-Page Sections ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
-.header-text h1 {
+.header-text h1, h2 {
 	text-shadow: 11px 11px 9px rgba(0, 0, 0, 0.75);
 	z-index: 999;
 }
@@ -554,11 +554,11 @@ ul#menu-main > li > a:hover {
 	font-family: 'Patua One', cursive;
 	font-size: 4em;
 	font-weight: 400;
-	margin: 1em 0;
+	margin: 1em 0 0.5em 0;
 }
 #headerwrap h2 {
 	color: #FFFFFF;
-	font-family: 'Open Sans', sans serif;
+	font-family: 'Patua One', cursive;
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0.5em 0;
