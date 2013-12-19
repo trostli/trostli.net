@@ -718,13 +718,12 @@ section#services .span3:hover {
 /* Testimonials */
 
 section#testimonials {
-	height:  647px;
-	background: url("../img/rooftop.jpg") no-repeat center center fixed;
+	height:  400px;
+	background: url("../img/rooftop_smaller.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 400px;
 	padding: 0;
 	color: #e4e5e2;
 	z-index: 500;
