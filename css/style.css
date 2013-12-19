@@ -41,6 +41,7 @@ body {
 	color: #312A1E;
 	font-size: 100%;
 	font-family: 'Quattrocento', serif;
+  padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
 }
 ::-moz-selection {
 background:#f0bf00;
@@ -531,7 +532,7 @@ ul#menu-main > li > a:hover {
 /* ----------------------------------------------------------------------------------------------------------
 05 Single-Page Sections ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
-.header-text h1, h2 {
+.header-text h1, .header-text h2 {
 	text-shadow: 11px 11px 9px rgba(0, 0, 0, 0.75);
 	z-index: 999;
 }
@@ -833,7 +834,7 @@ section#team .align, section#contact .align {
 	text-align:center
 }
 .team-thumb {
-	margin-top: 26px;
+	margin-bottom: 0.45em;
 	text-align:center;
 }
 .job-position {
