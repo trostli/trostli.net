@@ -539,12 +539,11 @@ ul#menu-main > li > a:hover {
 
 #headerwrap {
 	width: 100%;
-	background: url(../img/top-bg.jpg) #0b333f no-repeat center center fixed;
+	background: url(../img/top-bg-comp.jpg) #0b333f no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	;
 	min-height: 600px;
 	margin-top: -60px;
 	padding-top:160px;
@@ -718,7 +717,7 @@ section#services .span3:hover {
 /* Testimonials */
 
 section#testimonials {
-	height:  400px;
+	height:  450px;
 	background: url("../img/rooftop_smaller.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1077,8 +1076,13 @@ footer p {
 }
 }
  @media (max-width: 979px) {
- .navbar-fixed-top {
- margin-bottom: 0;
+  /* Fix for stopping parallax on ipads or smaller */
+  #headerwrap {
+    background: url(../img/top-bg-comp.jpg) #0b333f no-repeat center center !important;
+}
+  section#testimonials {
+    height:  450px;
+    background: url("../img/rooftop_smaller.jpg") no-repeat center center !important;
 }
  .navbar .container {
  width: 100%;
