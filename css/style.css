@@ -1074,8 +1074,6 @@ footer p {
  .banner-caption p {
  font-size: 1em;
 }
-}
- @media (max-width: 979px) {
   /* Fix for stopping parallax on ipads or smaller */
   #headerwrap {
     background: url(../img/top-bg-comp.jpg) #0b333f no-repeat center center !important;
@@ -1084,6 +1082,8 @@ footer p {
     height:  450px;
     background: url("../img/rooftop_smaller.jpg") no-repeat center center !important;
 }
+}
+ @media (max-width: 979px) {
  .navbar .container {
  width: 100%;
 }
