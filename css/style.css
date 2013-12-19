@@ -719,7 +719,9 @@ section#services .span3:hover {
 
 section#testimonials {
 	height:  647px;
-	background: url("../img/yellow_testimonial.png") repeat-x 0 0;
+	background: url("../img/rooftop.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 600px;
 	padding: 0;
 	color: #e4e5e2;
 	z-index: 500;
