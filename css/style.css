@@ -162,6 +162,14 @@ em {
 	margin-top: 1.5em;
 	font-family: 'Patua One', cursive;
 }
+
+.side-link {
+  font-size: .875em; /* 14px */
+  margin-top: 1.5em;
+  margin-left: 0.5em;
+  font-family: 'Patua One', cursive;
+}
+
 .more-link:link, .more-link:visited {
 	color: #f0bf00;
 	text-transform: uppercase;
@@ -627,7 +635,8 @@ section.single-page h1 {
 	font-size: 40px;
 	margin-bottom: 0;
 	line-height: 1.35;
-	color: #fff;
+	color: rgba(255,255,255, 0.8);
+  text-shadow: 1px 1px 1px #F8B20B, 0 0 0 #000, 1px 1px 1px #F8B20B;
 }
 /* Portfolio */
 
